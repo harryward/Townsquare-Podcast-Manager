@@ -5,7 +5,7 @@
 - server type: Ubuntu
 - config (bradley)
  - nginx
-   - map :3000 to :80 (i.e. visiting ourinstance.aws.com loads ourinstance.aws.com:3000 - without showing port)
+   - map :3000 to :80
  - meteor
    - <code>curl https://install.meteor.com/ | sh</code> 
 - requirements
